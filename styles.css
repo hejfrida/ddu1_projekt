@@ -11,20 +11,39 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
-}
-
-#main-nav {
-    justify-content: left;
     gap: 20px;
 }
 
 #secondary-nav {
-    justify-content: right;
-    gap: 20px;
+    margin-left: auto;
+}
+
+#main-nav a, #secondary-nav a {
+    text-decoration: none;
+    color: #121212;
+    font-size: 13px;
+}
+
+#main-nav a:hover, #secondary-nav a:hover {
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-radius: 5px; 
 }
 
 #barky-logo-img {
     height: 20px;
     width: auto;
+}
+
+button {
+    background-color: #121212;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+#nav-button {
+    padding: 5px;
 }
