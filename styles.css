@@ -58,3 +58,27 @@ button {
 #nav-button {
     padding: 5px;
 }
+
+.small-text {
+    font-size: 12px;
+    color: #7f7f7f;
+}
+
+.strong-text {
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.footer-link {
+    display: flex;
+    font-size: 13px;
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #999999;
+    padding-bottom: 70px;
+ }
