@@ -13,6 +13,7 @@ body {
 @media (max-width: 600px) {
     #container {
         width: 100%;
+        flex-direction: column;
     }
 }
 
@@ -291,6 +292,9 @@ h4 {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
     margin: 0 auto;
     border-top: solid 1px #999999;
     box-sizing: border-box;
@@ -302,12 +306,6 @@ footer {
  #footer-2 {
     display: flex;
     gap: 50px;
- }
-
- #footer-1, #footer-2 {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
  }
 
  .footer-2-category {
