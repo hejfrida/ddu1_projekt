@@ -280,6 +280,7 @@ h4 {
  .small-text {
     font-size: 12px;
     color: #7f7f7f;
+    font-style: normal;
 }
 
 .strong-text {
