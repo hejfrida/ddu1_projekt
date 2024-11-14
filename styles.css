@@ -294,15 +294,23 @@ h4 {
 }
 
 footer {
+    margin: 0 auto;
     border-top: solid 1px #999999;
+    box-sizing: border-box;
     padding-top: 60px;
     padding-bottom: 70px;
-    max-width: 1200px;
+    width: 1200px;
  }
 
  #footer-2 {
     display: flex;
     gap: 50px;
+ }
+
+ #footer-1, #footer-2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
  }
 
  .footer-2-category {
